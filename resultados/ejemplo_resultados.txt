@@ -1,0 +1,4 @@
+Análisis de ejemplo
+Archivo analizado: hbb_ejemplo.fasta
+Resultado:
+No se detectó la mutación asociada a anemia falciforme.
