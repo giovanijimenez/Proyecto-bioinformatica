@@ -1,0 +1,78 @@
+# ==========================================
+# Proyecto Bioinformática
+# ==========================================
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Python
+# ==========================================
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Configuración de IDE
+.vscode/
+.idea/
+
+# ==========================================
+# Archivos de configuración
+# ==========================================
+
+# Variables de entorno
+.env
+.env.*
+
+# ==========================================
+# Logs y archivos temporales
+# ==========================================
+
+*.log
+*.tmp
+*.bak
+
+# ==========================================
+# Bioinformática
+# ==========================================
+
+# Archivos de secuenciación pesados
+# (Evita subir datos reales de gran tamaño)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Archivos de alineamiento
+*.bam
+*.sam
+*.bai
+
+# Archivos de variantes
+*.vcf
+*.vcf.gz
+
+# Archivos temporales FASTA
+*.tmp.fasta
+
+# ==========================================
+# Resultados generados automáticamente
+# ==========================================
+
+# Mantener la carpeta resultados,
+# pero ignorar archivos temporales
+resultados/*.tmp
+resultados/*.log
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/

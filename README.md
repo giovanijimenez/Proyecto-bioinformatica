@@ -12,6 +12,20 @@ Una vez se tenga descargada la secuencia a analizar en formato FASTA, se corre e
 * Ejemplo: C:\Users\hagb\HBB_samples\sample_1.fasta 
  
 
+## 🧬 Flujo de trabajo
+
+```mermaid
+flowchart TD
+    A[Archivo FASTA] --> B[Lectura de la secuencia]
+    B --> C[Validación del formato]
+    C --> D[Análisis de nucleótidos]
+    D --> E[Cálculo de longitud]
+    D --> F[Cálculo de contenido GC]
+    E --> G[Generación del reporte]
+    F --> G
+    G --> H[Archivo de resultados]
+```
+
 ## Créditos
 Parte del código de este proyecto fue generado con asistencia de Claude AI (Anthropic)
 y revisado, validado y adaptado por Hector Armando Garza Balderas.
